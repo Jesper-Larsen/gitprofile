@@ -109,7 +109,9 @@ const GitProfile = ({ config }: { config: Config }) => {
       setProfile({
         avatar: data.avatar_url,
         name: data.name || ' ',
-        bio: data.bio || '',
+        bio:
+          data.bio ||
+          'Mit navn er Jesper Larsen, jeg er 26 år gammel og har programmeret i min fritid, skole og arbejde de sidste 6 år. Jeg har en passion for programmering og elsker at lære nye teknologier og sprog at kende. Jeg har mest erfaring med webudvikling, men jeg har også erfaring med andre typer programmering. Nogle af de projekter, jeg har arbejdet på, viser jeg her. hvis du vil have mere information, er du velkommen til at kontakte mig.',
         location: data.location || '',
         company: data.company || '',
       });

@@ -146,7 +146,7 @@ const GithubProjectCard = ({
                       skeleton({ widthCls: 'w-40', heightCls: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        {header}
+                        Github projekter
                       </span>
                     )}
                   </h5>
@@ -159,7 +159,7 @@ const GithubProjectCard = ({
                       rel="noreferrer"
                       className="text-base-content opacity-50 hover:underline"
                     >
-                      See All
+                      Se alle
                     </a>
                   )}
                 </div>
