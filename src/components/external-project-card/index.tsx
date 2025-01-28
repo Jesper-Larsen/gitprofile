@@ -5,7 +5,6 @@ import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
 
 const ExternalProjectCard = ({
   externalProjects,
-  header,
   loading,
   googleAnalyticId,
 }: {

@@ -5,7 +5,6 @@ import { ga, getLanguageColor, skeleton } from '../../utils';
 import { GithubProject } from '../../interfaces/github-project';
 
 const GithubProjectCard = ({
-  header,
   githubProjects,
   loading,
   limit,
